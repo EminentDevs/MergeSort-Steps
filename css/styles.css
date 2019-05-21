@@ -1,0 +1,120 @@
+﻿@font-face {
+	font-family: 'BAUHS93';
+	src: url('../fonts/BAUHS93.woff') format('woff'), url('../fonts/BAUHS93.ttf') format('truetype');
+}
+
+* {
+	user-select: none;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+.myHr {
+	padding: 0px;
+	margin: 2px auto 0;
+	width: 80%;
+	border-top: 1px solid #149090;
+}
+
+.valueCell::-webkit-outer-spin-button,
+.valueCell::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#submitSize {
+	width: 180px;
+}
+
+#viewAlgBtn {
+	width: 180px;
+	display: none;
+}
+
+#values {
+	text-align: center;
+}
+
+.valueCell {
+	width: 40px;
+	display: inline-block;
+	padding: 5px;
+	margin: 3px;
+}
+
+.number {
+	width: auto;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	color: #2165ae;
+	font-family: 'Century Gothic';
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+.Row {
+	display: none;
+	padding: 2px;
+}
+
+.space {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+
+#section2 {
+	display: none;
+}
+
+#section3 {
+	display: none;
+	text-align: center;
+}
+
+#splash {
+	background: #1e425c;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+#splashTitle {
+	color: #f9f9f9;
+	font-family: 'BAUHS93';
+	font-size: 48pt;
+	position: absolute;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	top: 35vh;
+	left: 7%;
+	width: 86%;
+}
+
+#EminentLogo {
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+#copyright {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	bottom: 0px;
+}
+
+#copyrightText {
+	font-family: 'Century Gothic';
+	color: #F9F9F9;
+	display: block;
+	text-align: center;
+	padding: 10px;
+}
